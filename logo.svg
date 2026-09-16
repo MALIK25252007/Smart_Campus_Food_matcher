@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- App Icon Squircle Container (Dark Slate Variant) -->
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="#1E293B" />
+
+  <!-- Main Logo Mark Group -->
+  <g transform="translate(0, -10)">
+    <!-- Outer Pin Outline Loop -->
+    <path d="M 256 410 
+             C 240 395, 150 310, 150 210 
+             C 150 140, 200 85, 270 85 
+             C 345 85, 400 145, 395 220 
+             C 390 280, 335 325, 280 325 
+             C 210 325, 180 270, 180 230" 
+          fill="none" 
+          stroke="#E06D3B" 
+          stroke-width="22" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Inner Fork Terminal -->
+    <g fill="#E06D3B">
+      <!-- Fork Base / Stem -->
+      <path d="M 180 230 L 180 200 C 180 185, 208 185, 208 200 L 208 230 Z" />
+      <!-- Fork Tines -->
+      <rect x="180" y="160" width="6" height="35" rx="3" />
+      <rect x="191" y="160" width="6" height="35" rx="3" />
+      <rect x="202" y="160" width="6" height="35" rx="3" />
+    </g>
+
+    <!-- Inner Spoon Terminal -->
+    <path d="M 280 325 
+             C 280 270, 315 220, 315 180 
+             C 315 155, 330 140, 345 155 
+             C 360 170, 360 195, 340 225 
+             C 320 255, 280 290, 280 325 Z" 
+          fill="#E06D3B" />
+  </g>
+</svg>
